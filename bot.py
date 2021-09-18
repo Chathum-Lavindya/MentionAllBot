@@ -17,7 +17,7 @@ client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("__**Im MentionAll Bot**, I can mention almost all members in group or channel 👻\nClick **/help** for more infomation__\n\n Follow [@AnjanaMadu](https://github.com/AnjanaMadu) on Github",
+  await event.reply("__**Im MentionAll Bot**, Hello This Widox Mension bot can mention almost all members in group or channel 👻\nClick **/help** for more infomation__\n\n Follow [@WidoxLK](https://github.com/Chathum-Lavindya) on Github",
                     buttons=(
                       [Button.url('📣 Channel', 'https://t.me/harp_tech'),
                       Button.url('📦 Source', 'https://github.com/AnjanaMadu/MentionAllBot')]
